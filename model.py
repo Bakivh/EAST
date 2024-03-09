@@ -8,6 +8,7 @@ tf.app.flags.DEFINE_integer('text_scale', 512, '')
 from nets import resnet_v1
 
 FLAGS = tf.app.flags.FLAGS
+#ttt
 
 
 def unpool(inputs):
